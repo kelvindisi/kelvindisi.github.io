@@ -1,0 +1,167 @@
+body {
+    background-color: #fafafa;
+}
+.btn-theme {
+    background-color: #92292a !important;
+    color: white;
+}
+.text-theme {
+    color: #92292a;
+}
+
+/* Navbar CSS */
+.navbar {
+    background-color: white !important;
+    box-shadow: 0 1px rgb(255, 255, 255);
+}
+.navbar-brand {
+    margin-left: 2rem;
+    flex: 1 0 auto;
+}
+.img-nav {
+    max-height: 50px;
+}
+.nav-item {
+    font-weight: bold;
+    padding: 10px;
+}
+.nav-item:last-child .dropdown-toggle::after{
+    display: none !important;
+}
+
+/* Intro CSS */
+
+.intro-container {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+.intro {
+    width: 55vw;
+}
+.intro--title {
+    font-weight: 600;
+    line-height: 4rem;
+}
+.intro--description {
+    font-size: 1.4rem;
+    word-break: keep-all;
+}
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+/* room details */
+.details {
+    position: relative;
+}
+.details--description, .details--listing {
+    font-size: 1rem;
+    line-height: 1.7rem;
+}
+
+/* JQuery Calender Styling */
+.ui-datepicker-multi {
+    width: 450px !important;
+    background: white;
+    border-radius: 0;
+    color: black;
+}
+#calender .ui-datepicker-multi {
+    width: 100% !important;
+}
+.ui-widget-header {
+    border: none;
+    background-color: white;
+}
+.ui-widget.ui-widget-content {
+    border: 2.5px solid maroon;
+}
+#calender .ui-widget.ui-widget-content {
+    border: none !important;
+}
+.ui-datepicker-month, .ui-datepicker-year {
+    background-color: white;
+    border: none;
+}
+.ui-state-default {
+    border: none !important;
+    color: maroon !important;
+    text-align: center !important;
+}
+.ui-state-active {
+    background-color: maroon !important;
+    color: white !important;
+    font-weight: bold !important;
+    opacity: .8;
+}
+/* contact us */
+
+.contact > form {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: white;
+}
+
+/* footer */
+.footer {
+    font-size: .75rem !important;
+    color: #767b80;
+    margin-top: 50px;
+    border-top: 1px solid #ddd;
+    padding: 3rem 60px 0px 60px;
+}
+.footer-content {
+    padding-bottom: 80px;
+    border-bottom: 1px solid #ddd;
+}
+.footer a {
+    text-decoration: none;
+    color: #767b80;
+    text-transform: capitalize;
+    font-size: .875rem;
+    font-weight: 500;
+}
+.footer a:hover {
+    color: #92292a;
+}
+
+.mail a, .developer {
+    color: maroon !important;
+    text-transform: lowercase !important;
+}
+
+.footer .footer-category-title h2 {
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    line-height: 1.48;
+    color: #000;
+    text-transform: capitalize;
+    letter-spacing: -.03em;
+    margin-bottom: 1.25rem;
+}
+.footer-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.footer-list li::after {
+    content: '/';
+    margin: 0 12px;
+}
